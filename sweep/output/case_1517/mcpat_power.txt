@@ -1,0 +1,334 @@
+McPAT (version 1.3 of Feb, 2015) is computing the target processor...
+ 
+
+McPAT (version 1.3 of Feb, 2015) results  (current print level is 5)
+*****************************************************************************************
+  Technology 65 nm
+  Using Long Channel Devices When Appropriate
+  Interconnect metal projection= aggressive interconnect technology projection
+  Core clock Rate(MHz) 1400
+
+*****************************************************************************************
+Processor: 
+  Area = 86.2664 mm^2
+  Peak Power = 45.1071 W
+  Total Leakage = 16.2869 W
+  Peak Dynamic = 28.8201 W
+  Subthreshold Leakage = 15.1377 W
+  Gate Leakage = 1.1492 W
+  Runtime Dynamic = 4.93573 W
+
+  Total Cores: 1 cores 
+  Device Type= ITRS high performance device type
+    Area = 78.5289 mm^2
+    Peak Dynamic = 23.2717 W
+    Subthreshold Leakage = 14.6266 W
+    Gate Leakage = 1.1134 W
+    Runtime Dynamic = 4.78516 W
+
+  Total L2s: 
+  Device Type= ITRS high performance device type
+    Area = 7.04507 mm^2
+    Peak Dynamic = 2.29934 W
+    Subthreshold Leakage = 0.447928 W
+    Gate Leakage = 0.02871 W
+    Runtime Dynamic = 0.0131189 W
+
+  Total NoCs (Network/Bus): 
+  Device Type= ITRS high performance device type
+    Area = 0.692451 mm^2
+    Peak Dynamic = 3.24911 W
+    Subthreshold Leakage = 0.0632549 W
+    Gate Leakage = 0.00709123 W
+    Runtime Dynamic = 0.137455 W
+
+*****************************************************************************************
+Core:
+      Area = 78.5289 mm^2
+      Peak Dynamic = 23.2717 W
+      Subthreshold Leakage = 14.6266 W
+      Gate Leakage = 1.1134 W
+      Runtime Dynamic = 4.78516 W
+
+      Instruction Fetch Unit:
+        Area = 20.7348 mm^2
+        Peak Dynamic = 4.69065 W
+        Subthreshold Leakage = 1.20729 W
+        Gate Leakage = 0.0793598 W
+        Runtime Dynamic = 0.551327 W
+
+          Instruction Cache:
+            Area = 3.22286 mm^2
+            Peak Dynamic = 1.04903 W
+            Subthreshold Leakage = 0.353467 W
+            Gate Leakage = 0.0257461 W
+            Runtime Dynamic = 0.0540331 W
+
+          Branch Target Buffer:
+            Area = 8.82038 mm^2
+            Peak Dynamic = 1.27288 W
+            Subthreshold Leakage = 0.137821 W
+            Gate Leakage = 0.00601162 W
+            Runtime Dynamic = 0.0243381 W
+
+          Branch Predictor:
+            Area = 0.785259 mm^2
+            Peak Dynamic = 0.375895 W
+            Subthreshold Leakage = 0.00926587 W
+            Gate Leakage = 0.000660513 W
+            Runtime Dynamic = 0.00255517 W
+
+              Global Predictor:
+                Area = 0.0783228 mm^2
+                Peak Dynamic = 0.0282602 W
+                Subthreshold Leakage = 0.000800707 W
+                Gate Leakage = 5.66636e-05 W
+                Runtime Dynamic = 0.000447958 W
+
+              Local Predictor:
+              L1_Local Predictor:
+                Area = 0.0783228 mm^2
+                Peak Dynamic = 0.0282602 W
+                Subthreshold Leakage = 0.000800707 W
+                Gate Leakage = 5.66636e-05 W
+                Runtime Dynamic = 0.000447958 W
+
+              L2_Local Predictor:
+                Area = 0.0783228 mm^2
+                Peak Dynamic = 0.0282602 W
+                Subthreshold Leakage = 0.000800707 W
+                Gate Leakage = 5.66636e-05 W
+                Runtime Dynamic = 0.000447958 W
+
+              Chooser:
+                Area = 0.0783228 mm^2
+                Peak Dynamic = 0.0282602 W
+                Subthreshold Leakage = 0.000800707 W
+                Gate Leakage = 5.66636e-05 W
+                Runtime Dynamic = 0.000447958 W
+
+              RAS:
+                Area = 0.471968 mm^2
+                Peak Dynamic = 0.262854 W
+                Subthreshold Leakage = 0.00606304 W
+                Gate Leakage = 0.000433858 W
+                Runtime Dynamic = 0.000763339 W
+
+          Instruction Buffer:
+            Area = 0.00867221 mm^2
+            Peak Dynamic = 0.0405066 W
+            Subthreshold Leakage = 0.00114838 W
+            Gate Leakage = 6.74413e-05 W
+            Runtime Dynamic = 0.0305788 W
+
+          Instruction Decoder:
+            Area = 7.75308 mm^2
+            Peak Dynamic = 1.86438 W
+            Subthreshold Leakage = 0.659852 W
+            Gate Leakage = 0.0381395 W
+            Runtime Dynamic = 0.351859 W
+
+      Renaming Unit:
+        Area = 0.807299 mm^2
+        Peak Dynamic = 5.10027 W
+        Subthreshold Leakage = 0.0539691 W
+        Gate Leakage = 0.00928761 W
+        Runtime Dynamic = 0.883221 W
+
+          Int Front End RAT with 0 internal checkpoints:
+            Area = 0.184722 mm^2
+            Peak Dynamic = 3.60094 W
+            Subthreshold Leakage = 0.00161077 W
+            Gate Leakage = 0.000106646 W
+            Runtime Dynamic = 0.410131 W
+
+          FP Front End RAT with 0 internal checkpoints:
+            Area = 0.025747 mm^2
+            Peak Dynamic = 0.879305 W
+            Subthreshold Leakage = 0.000517404 W
+            Gate Leakage = 5.24626e-05 W
+            Runtime Dynamic = 0.0772592 W
+
+          Free List:
+            Area = 0.344767 mm^2
+            Peak Dynamic = 0.153755 W
+            Subthreshold Leakage = 0.00346175 W
+            Gate Leakage = 0.000192786 W
+            Runtime Dynamic = 0.0346599 W
+
+          Int Retire RAT: 
+            Area = 0.0322074 mm^2
+            Peak Dynamic = 0.0218826 W
+            Subthreshold Leakage = 0.00053943 W
+            Gate Leakage = 5.41145e-05 W
+            Runtime Dynamic = 0.00499205 W
+
+          FP Retire RAT:
+            Area = 0.0099603 mm^2
+            Peak Dynamic = 0.00804668 W
+            Subthreshold Leakage = 0.000371946 W
+            Gate Leakage = 3.81607e-05 W
+            Runtime Dynamic = 0.000656055 W
+
+          FP Free List:
+            Area = 0.0653613 mm^2
+            Peak Dynamic = 0.0844832 W
+            Subthreshold Leakage = 0.00173675 W
+            Gate Leakage = 0.0001089 W
+            Runtime Dynamic = 0.00367033 W
+
+      Load Store Unit:
+        Area = 14.2567 mm^2
+        Peak Dynamic = 4.33877 W
+        Subthreshold Leakage = 1.37588 W
+        Gate Leakage = 0.108292 W
+        Runtime Dynamic = 0.589646 W
+
+          Data Cache:
+            Area = 11.6098 mm^2
+            Peak Dynamic = 3.87607 W
+            Subthreshold Leakage = 1.23828 W
+            Gate Leakage = 0.0927196 W
+            Runtime Dynamic = 0.346233 W
+
+          LoadQ:
+            Area = 0.655618 mm^2
+            Peak Dynamic = 0.206954 W
+            Subthreshold Leakage = 0.0493864 W
+            Gate Leakage = 0.00361371 W
+            Runtime Dynamic = 0.0592995 W
+
+          StoreQ:
+            Area = 0.563883 mm^2
+            Peak Dynamic = 0.167781 W
+            Subthreshold Leakage = 0.0424807 W
+            Gate Leakage = 0.00322446 W
+            Runtime Dynamic = 0.09615 W
+
+      Memory Management Unit:
+        Area = 2.19108 mm^2
+        Peak Dynamic = 0.726222 W
+        Subthreshold Leakage = 0.225481 W
+        Runtime Dynamic = 0.219907 W
+
+          Itlb:
+            Area = 0.544221 mm^2
+            Peak Dynamic = 0.144361 W
+            Subthreshold Leakage = 0.0754318 W
+            Gate Leakage = 0.00460206 W
+            Runtime Dynamic = 0 W
+
+          Dtlb:
+            Area = 1.50232 mm^2
+            Peak Dynamic = 0.361953 W
+            Subthreshold Leakage = 0.104318 W
+            Gate Leakage = 0.00612156 W
+            Runtime Dynamic = 0 W
+
+      Execution Unit:
+        Area = 32.0728 mm^2
+        Peak Dynamic = 8.41575 W
+        Subthreshold Leakage = 7.99329 W
+        Runtime Dynamic = 2.54106 W
+
+          Register Files:
+            Area = 0.863237 mm^2
+            Peak Dynamic = 0.491099 W
+            Subthreshold Leakage = 0.0251501 W
+            Gate Leakage = 0.001176 W
+            Runtime Dynamic = 0.139901 W
+
+              Integer RF:
+                Area = 0.431618 mm^2
+                Peak Dynamic = 0.384296 W
+                Subthreshold Leakage = 0.0125751 W
+                Gate Leakage = 0.000588002 W
+                Runtime Dynamic = 0.112586 W
+
+              Floating Point RF:
+                Area = 0.431618 mm^2
+                Peak Dynamic = 0.106803 W
+                Subthreshold Leakage = 0.0125751 W
+                Gate Leakage = 0.000588002 W
+                Runtime Dynamic = 0.0273147 W
+
+          Instruction Scheduler:
+            Area = 0.432155 mm^2
+            Peak Dynamic = 0.642805 W
+            Subthreshold Leakage = 0.0271508 W
+            Gate Leakage = 0.00169446 W
+            Runtime Dynamic = 0.51898 W
+
+              Instruction Window:
+                Area = 0.060737 mm^2
+                Peak Dynamic = 0.12901 W
+                Subthreshold Leakage = 0.00441295 W
+                Gate Leakage = 0.000357946 W
+                Runtime Dynamic = 0.145572 W
+
+              FP Instruction Window:
+                Area = 0.159975 mm^2
+                Peak Dynamic = 0.244377 W
+                Subthreshold Leakage = 0.0111713 W
+                Gate Leakage = 0.000824553 W
+                Runtime Dynamic = 0.0432203 W
+
+              ROB:
+                Area = 0.211444 mm^2
+                Peak Dynamic = 0.269418 W
+                Subthreshold Leakage = 0.0115665 W
+                Gate Leakage = 0.000511965 W
+                Runtime Dynamic = 0.330187 W
+
+          Integer ALUs (Count: 6 ):
+            Area = 0.672672 mm^2
+            Peak Dynamic = 1.94142 W
+            Subthreshold Leakage = 0.599188 W
+            Gate Leakage = 0.0454759 W
+            Runtime Dynamic = 0.475544 W
+
+          Floating Point Units (FPUs) (Count: 6 ):
+            Area = 29.1588 mm^2
+            Peak Dynamic = 1.74728 W
+            Subthreshold Leakage = 6.49334 W
+            Gate Leakage = 0.492818 W
+            Runtime Dynamic = 0.601177 W
+
+          Complex ALUs (Mul/Div) (Count: 2 ):
+            Area = 0.672672 mm^2
+            Peak Dynamic = 0.432163 W
+            Subthreshold Leakage = 0.599188 W
+            Gate Leakage = 0.0454759 W
+            Runtime Dynamic = 0.271052 W
+
+          Results Broadcast Bus:
+            Area Overhead = 0.128745 mm^2
+            Peak Dynamic = 2.80912 W
+            Subthreshold Leakage = 0.203542 W
+            Gate Leakage = 0.015448 W
+            Runtime Dynamic = 0.182552 W
+
+*****************************************************************************************
+L2
+      Area = 7.04507 mm^2
+      Peak Dynamic = 2.29934 W
+      Subthreshold Leakage = 0.447928 W
+      Gate Leakage = 0.02871 W
+      Runtime Dynamic = 0.0131189 W
+
+*****************************************************************************************
+BUSES
+      Area = 0.692451 mm^2
+      Peak Dynamic = 3.24911 W
+      Subthreshold Leakage = 0.0632549 W
+      Gate Leakage = 0.00709123 W
+      Runtime Dynamic = 0.137455 W
+
+      Bus: 
+        Area = 0.692451 mm^2
+        Peak Dynamic = 3.24911 W
+        Subthreshold Leakage = 0.0632549 W
+        Gate Leakage = 0.00709123 W
+        Runtime Dynamic = 0.137455 W
+
+*****************************************************************************************
